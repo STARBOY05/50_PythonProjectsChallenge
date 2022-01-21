@@ -21,3 +21,4 @@ while(result):
     if(ask == "no"):
         result = False
         highest_bidder(auction_list)
+        print("Thank You for bidding!")
