@@ -14,8 +14,8 @@ def highest_bidder(biddings):
     print(f"\nThe winner is {winner} with a bid of whopping ${highest_bid}")
 
 while(result):
-    name = input("What is your name?: ") 
-    bid = int(input("What's your bid?: $"))
+    name = input("What is your name?: ") # Enter your Name
+    bid = int(input("What's your bid?: $")) # Enter your Bid
     auction_list[name] = bid # adding the person as key and bid as value in dictionary
     ask = input("Are there any other bidders? Type 'yes' or 'no': ")
     if(ask == "no"):
