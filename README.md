@@ -1,2 +1,2 @@
-# 50_PythonProjectsChallenge
+# PythonProjectsChallenge
 Learning Python by Doing 🐍👍
